@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding:5%;
+    background-color: rgba(55, 186, 252, 0.822);
+    color: black;
+}
+
+form{
+    margin-left:20px;
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#text{
+width: 130px;
+height: 25px;
+border: 1px solid rgba(55, 186, 252, 0.822);
+border-radius: 5px;
+color: rgba(55, 186, 252, 0.822);
+}
+
+::placeholder{
+    font-style: italic;
+}
+
+.radio{
+    float: right;
+    align-items: center;
+    margin-top: -30px;
+    padding-right: 20px;
+}
+
+.radio label{
+    padding-right: 15px;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    padding-top: 5px;
+}
+
+#list{
+    padding-left: 20px;
+    list-style: none;
+    padding-top: 50px;
+    width: 200px;
+}
+
+#list ul{
+    margin-top: 20px;
+}
+
+#list li{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.dropDown{
+    width: 25px;
+    float: right;
+    margin: 0 auto;
+    margin-right: 110px;
+    margin-top: -25px;
+}
+
+.dropDown ul{
+    list-style: none;
+}
+
+.dropDown ul li{
+    width: 100px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: relative;
+    float: left;
+}
+
+#conference1:hover{
+    background: rgba(55, 186, 252, 0.822);
+}
+
+#conference2{
+    border-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#conference2:hover{
+    background: rgba(55, 186, 252, 0.822);
+}
+
