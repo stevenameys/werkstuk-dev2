@@ -30,15 +30,11 @@ fetch('https://www.balldontlie.io/api/v1/teams')
             let a ;
             a = (new teamNames(teamsJson.data.full_name));
             names.push(a);
-           // console.log(b);
-            //console.log(a);
         });
         names.forEach((a) =>{
             html += a.getNames();
-            //console.log(a.getNames);
         });
         document.getElementById("list").innerHTML = html;
-        //console.log(html);
     }); 
 
     /*het volgende deel code dat hier geschreven staat is een andere methode
